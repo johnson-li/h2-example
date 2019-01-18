@@ -1,0 +1,2 @@
+RESOURCE = './resources/'
+

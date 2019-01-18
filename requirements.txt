@@ -1,0 +1,4 @@
+certifi==2018.11.29
+h2==3.0.1
+hpack==3.0.0
+hyperframe==5.2.0
