@@ -1,12 +1,12 @@
 H2-example
 ===
 
-An example of HTTP/2 client and server with hyper-h2.
+An example of HTTP/2 client and server implemented with hyper-h2. Initially, the client sends a POST request to the server and the server responses with the corresponding content. Meanwhile, the server uses SERVER PUSH to send a new response before receiving the request from the client.
 
 
 Install
 ===
-The code is tested on Python 3.6.5. Running on over versions may require some changes in the code.
+The code is tested on Python 3.6.5. Running on other versions may require some changes in the code.
 
 ```bash
 python3 -m venv .venv
